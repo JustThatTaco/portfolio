@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
 
+import portrait from './assets/cato_portrait.png';
+
 function App() {
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <img
+        src={portrait}
+        alt="Picture of Me"
+        style={{ width: `${windowSize.width * 0.5}px`, height: 'auto' }}
+      />
     </div>
   );
 }
-
+  
 export default App;

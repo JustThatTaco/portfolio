@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import Homepage from './components/Home';
 import Navbar from './components/Navbar';
 import './App.css';
 
-import portrait from './assets/cato_portrait.png';
+
 
 function App() {
   const [windowSize, setWindowSize] = useState({
@@ -28,11 +29,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <img
-        src={portrait}
-        alt="Picture of Me"
-        style={{ width: `${windowSize.width * 0.5}px`, height: 'auto' }}
-      />
+      <Homepage />
     </div>
   );
 }

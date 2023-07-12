@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import portrait from '../assets/cato_portrait.png';
 
 const Homepage = () => {

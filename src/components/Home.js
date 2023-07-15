@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import portrait from '../assets/cato_portrait.png';
+import "./Home.css";
 
 const Homepage = () => {
     const [windowSize, setWindowSize] = useState({
@@ -23,10 +24,13 @@ const Homepage = () => {
       }, []);
     
     return (
+      <div>
         <img src={portrait}
              alt="Picture of Me"
              style={{ width: `${windowSize.width * 0.5}px`, height: 'auto' }}
         />
+        <p className='intro'> Test </p>
+      </div>
     );
   };
   

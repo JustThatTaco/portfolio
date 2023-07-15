@@ -29,7 +29,8 @@ const Homepage = () => {
              alt="Picture of Me"
              style={{ width: `${windowSize.width * 0.5}px`, height: 'auto' }}
         />
-        <p className='intro'> Test </p>
+        <p className='intro'> Hello! I am Cato Wen, a Junior studying Electrical Engineering
+        and Computer Engineering at New York University </p>
       </div>
     );
   };

@@ -3,7 +3,12 @@
     src: url('../assets/omo_font.ttf'); /* Provide the path to your .ttf file */
 }
 
-.p{
+.intro{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 10rem;
     font-family: 'omo_font';
     font-size: 3rem;
 }
+

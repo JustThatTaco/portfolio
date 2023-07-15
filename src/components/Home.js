@@ -35,7 +35,7 @@ const Homepage = () => {
           <p className='body1'> I am a Junior at New York University Studying Electrical Engineering and Computer Engineering </p>
           <img src={nyu}
              alt="NYU Logo"
-             style={{ width: `${windowSize.width * 0.3}px`, height: 'auto', float: 'left'}}
+             style={{ width: `${windowSize.width * 0.2}px`, height: 'auto', float: 'left'}}
           />
         </div>
 

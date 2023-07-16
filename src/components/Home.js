@@ -25,10 +25,10 @@ const Homepage = () => {
       }, []);
     
     return (
-      <div>
+      <div className='main'>
         <img src={portrait}
              alt="Portrait of Me"
-             style={{ width: `${windowSize.width * 0.5}px`, height: 'auto' }}
+             style={{ width: `${windowSize.width * 0.5}px`, height: 'auto'}}
         />
         <p className='intro'> Hello! I am Cato Yuan Wen </p>
         <div className='container'>

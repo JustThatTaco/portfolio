@@ -3,10 +3,11 @@ import './Navbar.css'; // Import the CSS file with the styles
 
 const Navbar = () => {
   return (
+    <div>
     <nav>
       <ul className="navbar">
         <li className="navbar-item">
-          <a href="/" className="navbar-link">
+          <a href= '../src/App' className="navbar-link">
             Home
           </a>
         </li>
@@ -27,6 +28,8 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
+    <div class="line"></div>
+    </div>
   );
 };
 

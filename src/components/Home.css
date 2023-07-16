@@ -3,6 +3,11 @@
     src: url('../assets/omo_font.ttf'); /* Provide the path to your .ttf file */
 }
 
+.main{
+    padding-top: 150px;
+}
+
+
 .intro{
     margin: 0;
     padding: 0;

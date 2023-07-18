@@ -1,4 +1,4 @@
-const Resume = () => {
+const Blogs = () => {
     return (
         <div>
 
@@ -6,4 +6,4 @@ const Resume = () => {
     );
 };
   
-export default Resume;
+export default Blogs;

@@ -29,6 +29,7 @@ const Homepage = () => {
         <img src={portrait}
              alt="Portrait of Me"
              style={{ width: `${windowSize.width * 0.5}px`, height: 'auto'}}
+             className = 'portrait'
         />
         <p className='intro'> Hello! I am Cato Yuan Wen </p>
         <div className='container'>
@@ -38,7 +39,6 @@ const Homepage = () => {
              style={{ width: `${windowSize.width * 0.2}px`, height: 'auto', float: 'left'}}
           />
         </div>
-
       </div>
     );
   };

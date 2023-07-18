@@ -16,14 +16,14 @@
 
 .navbar-item {
     display: inline-block;
-    margin-right: 10rem;
+    margin-right: 10vw;
 }
 
 .navbar-link {
     text-decoration: none;
     color: black;
     font-family: 'omo_font';
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 

@@ -23,10 +23,10 @@ function App() {
       <div>
         <Navbar/>
         <Routes>
-          <Route path="/portfolio/" element = {<Homepage />}></Route>
-          <Route path="/portfolio/resume" element = {<Resume />}></Route>
-          <Route path="/portfolio/projects" element = {<Projects />}></Route>
-          <Route path="/portfolio/blogs" element = {<Blogs />}></Route>
+          <Route path="/" element = {<Homepage />}></Route>
+          <Route path="/resume" element = {<Resume />}></Route>
+          <Route path="/projects" element = {<Projects />}></Route>
+          <Route path="/blogs" element = {<Blogs />}></Route>
         </Routes>
       </div>
     {/* </BrowserRouter> */}
@@ -34,5 +34,6 @@ function App() {
     </div>
   );
 }
+
   
 export default App;

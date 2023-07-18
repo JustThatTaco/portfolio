@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
-    <div class="line"></div>
+    <div className ="line"></div>
     </div>
   );
 };

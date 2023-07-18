@@ -7,16 +7,16 @@
     list-style-type: none;
     padding: 0;
     position: fixed;
-    left: 0;
-    right: 0;
+    display: inline-block;
     margin: auto;
     background-color: white;
     z-index: 2;
+    width: 100%;
 }
 
 .navbar-item {
     display: inline-block;
-    margin-right: 10vw;
+    margin-right: 5vw;
 }
 
 .navbar-link {
@@ -31,13 +31,13 @@
 
 .line {
     width: 100%;
-    height: 31px;
+    height: 3vw;
     background-image: url("../assets/line.jpg");
     background-repeat: repeat;
-    background-size: 143px 31px;
+    background-size: auto 3vw;
     /* background-size: 100% 100%; */
     position: fixed;
-    top: 80px; /* Adjust the value to position the line appropriately */
+    top: 5.5vw; /* Adjust the value to position the line appropriately */
     left: 0;
     z-index: 1; /* Set a lower z-index to place it below the navbar */
 }  

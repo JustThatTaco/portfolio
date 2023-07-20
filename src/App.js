@@ -10,6 +10,7 @@ import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Blogs from './components/Blogs'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 import './App.css';
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/projects" element = {<Projects />}></Route>
           <Route path="/blogs" element = {<Blogs />}></Route>
         </Routes>
+        <Footer/>
       </div>
     {/* </BrowserRouter> */}
     {/* </HashRouter> */}

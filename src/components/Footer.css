@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'omo_font'; /* Specify the font name */
+    src: url('../assets/omo_font.ttf'); /* Provide the path to your .ttf file */
+}
+
+.center{
+    text-align: center;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.find {
+    text-decoration: none;
+    color: black;
+    font-family: 'omo_font';
+    font-size: 5vw;
+    margin-left: 5vw;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    font-family: 'omo_font';
+    font-size: 3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    white-space: nowrap;
+    vertical-align: center;
+}

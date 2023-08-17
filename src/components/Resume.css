@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'omo_font'; /* Specify the font name */
+    src: url('../assets/omo_font.ttf'); /* Provide the path to your .ttf file */
+}
+
+.resume_main{
+    padding-top: 15vh;
+}
+
+.foreword{
+    text-align: center;
+    color: black;
+    font-family: 'omo_font';
+    font-size: 2.5vw;
+}

@@ -2,8 +2,8 @@ import React from 'react';
 
 import './Footer2.css';
 
-import wechat from '../assets/wechat.png';
-import email from '../assets/email.png';
+import wechat from '../assets/wechat_draw.png';
+import email from '../assets/email_draw.png';
 import ins from '../assets/ins_draw.png';
 
 const Footer = () => {

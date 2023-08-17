@@ -8,9 +8,11 @@ import { HashRouter, Routes, Route} from 'react-router-dom';
 import Homepage from './components/Home';
 import Resume from './components/Resume'
 import Projects from './components/Projects'
-import Blogs from './components/Blogs'
+import Blog from './components/Blogs'
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer2'
+
 import './App.css';
 
 
@@ -27,7 +29,7 @@ function App() {
           <Route path="/" element = {<Homepage />}></Route>
           <Route path="/resume" element = {<Resume />}></Route>
           <Route path="/projects" element = {<Projects />}></Route>
-          <Route path="/blogs" element = {<Blogs />}></Route>
+          <Route path="/blog" element = {<Blog />}></Route>
         </Routes>
         <Footer/>
       </div>

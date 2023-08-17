@@ -7,22 +7,22 @@ const Navbar = () => {
     <nav>
       <ul className="navbar">
         <li className="navbar-item">
-          <a href= '/portfolio/#' className="navbar-link">
+          <a href= '/portfolio/#/' className="navbar-link">
             Home
           </a>
         </li>
         <li className="navbar-item">
-          <a href="/portfolio/#resume" className="navbar-link">
+          <a href="/portfolio/#/resume" className="navbar-link">
             Resume
           </a>
         </li>
         <li className="navbar-item">
-          <a href="/portfolio/#projects" className="navbar-link">
+          <a href="/portfolio/#/projects" className="navbar-link">
             Projects
           </a>
         </li>
         <li className="last-navbar-item">
-          <a href="/portfolio/#blog" className="navbar-link">
+          <a href="/portfolio/#/blog" className="navbar-link">
             Blogs?
           </a>
         </li>

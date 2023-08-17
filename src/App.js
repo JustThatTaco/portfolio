@@ -10,7 +10,7 @@ import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Blogs from './components/Blogs'
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'
+import Footer from './components/Footer2'
 import './App.css';
 
 

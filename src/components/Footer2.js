@@ -11,15 +11,15 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-content">
         <div className="item">
-          <img src="wechat.png" alt="Wechat" />
+          <img src= {wechat} alt="Wechat" />
           <p> catoywen </p>
         </div>
         <div className="item">
-          <img src="email.png" alt="Email" />
+          <img src= {email} alt="Email" />
           <p> cyw6944@nyu.edu </p>
         </div>
         <div className="item">
-          <img src="ins.png" alt="Ins" />
+          <img src = {ins} alt="Ins" />
           <p>cato.wen</p>
         </div>
       </div>

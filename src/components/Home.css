@@ -25,6 +25,10 @@
 .container {
     align-items: center;
     justify-content: center;
+    height: auto;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .body1{

@@ -12,7 +12,7 @@ const Footer = () => {
                 Find Me At:
             </p>
             {/* <div style={{width: '90vw', margin: '0 auto'}}> */}
-            <div>
+            <div style={{width: '90vw', margin: '0 auto', display: 'inline-block'}}>
                 <img src={wechat}
                     alt="Wechat Logo"
                     style={{ width: '10vw', height: 'auto', float:'left'}}

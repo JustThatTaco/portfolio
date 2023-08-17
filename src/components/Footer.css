@@ -31,6 +31,5 @@
     font-size: 3vw;
     margin-left: 3vw;
     margin-right: 3vw;
-    white-space: nowrap;
-    vertical-align: center;
+    float: 'left';
 }

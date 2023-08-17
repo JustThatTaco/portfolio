@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import portrait from '../assets/cato_portrait.png';
-import nyu from '../assets/NYU2.jpg';
+import nyu from '../assets/NYU2.jpg'
+
 import "./Home.css";
 
 const Homepage = () => {
@@ -31,7 +32,7 @@ const Homepage = () => {
              style={{ width: `${windowSize.width * 0.5}px`, height: 'auto'}}
              className = 'portrait'
         />
-        <p className='intro'> Hello! I am Cato Yuan Wen </p>
+        <p className='intro'> Hello! I am Cato </p>
         <div className='container'>
           <p className='body1'> I am a Junior at New York University Studying Electrical Engineering and Computer Engineering </p>
           <img src={nyu}
@@ -39,6 +40,7 @@ const Homepage = () => {
              style={{ width: `${windowSize.width * 0.2}px`, height: 'auto', float: 'left'}}
           />
         </div>
+        <div style={{ clear: 'both' }}></div>
       </div>
     );
   };

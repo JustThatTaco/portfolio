@@ -4,7 +4,7 @@ import './Footer2.css';
 
 import wechat from '../assets/wechat.png';
 import email from '../assets/email.png';
-import ins from '../assets/ins.png';
+import ins from '../assets/ins_draw.png';
 
 const Footer = () => {
     return (

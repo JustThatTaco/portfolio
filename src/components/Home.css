@@ -41,12 +41,14 @@
 }
 
 .body2{
+    margin: 5vw;
+    padding: 0;
+    /* display: inline-block; */
+    text-align: center;
     font-family: 'omo_font';
     font-size: 3vw;
-    float: left;
     text-align: left;
-    width: 20em;
-    padding: 3em;
+    
 }
 
 .thanks{

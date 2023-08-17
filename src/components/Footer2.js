@@ -7,24 +7,24 @@ import email from '../assets/email.png';
 import ins from '../assets/ins.png';
 
 const Footer = () => {
-  return (
-    <div className="footer-container">
-      <div className="footer-content">
-        <div className="item">
-          <img src= {wechat} alt="Wechat" />
-          <p> catoywen </p>
-        </div>
-        <div className="item">
-          <img src= {email} alt="Email" />
-          <p> cyw6944@nyu.edu </p>
-        </div>
-        <div className="item">
-          <img src = {ins} alt="Ins" />
-          <p>cato.wen</p>
+    return (
+      <div className="footer-container">
+        <div className="footer-content">
+          <div className="item">
+            <img className="foot_pic" src= {wechat} alt="Picture 1" />
+            <p className="text"> catoywen </p>
+          </div>
+          <div className="item">
+            <img src= {email} className="foot_pic" alt="Picture 2" />
+            <p className="text"> cyw6944@nyu.edu </p>
+          </div>
+          <div className="item">
+            <img src= {ins} className="foot_pic" alt="Picture 3" />
+            <p className="text"> cato.wen </p>
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 export default Footer;

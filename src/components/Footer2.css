@@ -1,9 +1,11 @@
-/* Add this to your existing CSS or in a <style> tag */
+@font-face {
+    font-family: 'omo_font'; /* Specify the font name */
+    src: url('../assets/omo_font.ttf'); /* Provide the path to your .ttf file */
+}
 
 .footer-container {
     display: flex;
     justify-content: center;
-    background-color: #f0f0f0; /* Set your desired background color */
     padding: 20px 0;
   }
   
@@ -14,17 +16,20 @@
   
   .item {
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin: 0 20px;
   }
   
-  img {
-    max-width: 100px; /* Adjust the width as needed */
+  .foot_pic {
+    max-width: 8vw; /* Adjust the width as needed */
     height: auto;
   }
   
-  p {
-    margin-top: 10px;
-    text-align: center;
+  .text {
+    margin-left: 3vw;
+    text-align: left;
+    color: black;
+    font-family: 'omo_font';
+    font-size: 3vw;
   }
+  

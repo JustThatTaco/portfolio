@@ -6,7 +6,7 @@
 .footer-container {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    /* padding: 3vw 0; */
   }
   
   .footer-content {
@@ -17,19 +17,19 @@
   .item {
     display: flex;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 1vw;
   }
   
   .foot_pic {
-    max-width: 8vw; /* Adjust the width as needed */
+    max-width: 7vw; 
     height: auto;
   }
   
   .text {
-    margin-left: 3vw;
+    margin-left: 1vw;
     text-align: left;
     color: black;
     font-family: 'omo_font';
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   

@@ -11,9 +11,10 @@ const Resume = () => {
         <p className = "foreword"> The page is a little lackluster</p>
         <div style={{ width: '100%' }}>
         <Document
-          file= "/resume.pdf"
+          file= "/portfolio/resume.pdf"
           onLoadError={console.error}
         >
+        <Page pageNumber={1} width={window.innerWidth * 0.8} renderTextLayer={false} renderAnnotationLayer={false} />
         </Document>
         </div>
     </div>

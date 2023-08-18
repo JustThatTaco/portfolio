@@ -15,7 +15,7 @@ const Resume = () => {
           <div className="all-page-container">
             <Render pdf="/portfolio/resume.pdf" />
           </div>
-          <a href={"/portfolio/resume.pdf"} target="_blank"> Download </a>
+          <a className = 'download' href={"/portfolio/resume.pdf"} target="_blank"> Download </a>
         </div>
           
         <hr />

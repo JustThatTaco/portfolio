@@ -4,7 +4,7 @@
 }
 
 .resume_main{
-    padding-top: 15vh;
+    padding-top: 10vw;
 }
 
 .elem_center{
@@ -17,11 +17,13 @@
     justify-content: center;
 }
 
-.foreword{
+.download{
+    margin-top: 5vw;
     text-align: center;
     color: black;
     font-family: 'omo_font';
-    font-size: 2.5vw;
+    font-size: 8vw;
+    text-decoration: none;
 }
 
 .all-page-container {

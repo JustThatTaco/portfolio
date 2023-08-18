@@ -21,7 +21,14 @@
 
 .all-page-container {
     height: 100%;
-    max-height: 500px;
+    max-height: 70vh;
+    width: 80%;
     overflow: auto;
     margin: auto;
   }
+
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 80% !important;
+    height: 100% !important;
+}

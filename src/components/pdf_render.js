@@ -20,7 +20,7 @@ export default function AllPages(props) {
       >
         {Array.from(new Array(numPages), (el, index) => (
           <Page key={`page_${index + 1}`} pageNumber={index + 1}
-                width={window.innerWidth * 0.8}
+                width={window.innerWidth}
                 renderTextLayer={false} renderAnnotationLayer={false} />
         ))}
       </Document>

@@ -5,7 +5,12 @@
 
 .resume_main{
     padding-top: 15vh;
+}
 
+.elem_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center{

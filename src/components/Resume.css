@@ -5,6 +5,11 @@
 
 .resume_main{
     padding-top: 15vh;
+
+}
+
+.center{
+    justify-content: center;
 }
 
 .foreword{

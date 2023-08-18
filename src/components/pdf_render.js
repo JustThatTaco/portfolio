@@ -19,7 +19,9 @@ export default function AllPages(props) {
         onLoadSuccess={onDocumentLoadSuccess}
       >
         {Array.from(new Array(numPages), (el, index) => (
-          <Page key={`page_${index + 1}`} pageNumber={index + 1} renderTextLayer={false} renderAnnotationLayer={false} />
+          <Page key={`page_${index + 1}`} pageNumber={index + 1}
+                width={window.innerWidth * 0.8}
+                renderTextLayer={false} renderAnnotationLayer={false} />
         ))}
       </Document>
     );

@@ -21,9 +21,14 @@ const Navbar = () => {
             Projects
           </a>
         </li>
-        <li className="last-navbar-item">
+        <li className="navbar-item">
           <a href="/portfolio/#/blog" className="navbar-link">
-            Blogs?
+            Blog?
+          </a>
+        </li>
+        <li className="last-navbar-item">
+          <a href="/portfolio/#/notes" className="navbar-link">
+            Notes
           </a>
         </li>
       </ul>

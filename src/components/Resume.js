@@ -1,5 +1,6 @@
-// import resume from '../assets/cato_resume_aug2023.pdf';
 
+import React from 'react';
+import { Document, Page } from 'react-pdf';
 import "./Resume.css";
 
 const Resume = () => {
@@ -13,11 +14,16 @@ const Resume = () => {
             // height="500px"
             style={{ border: 'none' }}
         /> */}
-        <object data="../assets/cato_resume_aug2023.pdf"
+        {/* <object data= "../assets/cato_resume_aug2023.pdf"
                 type="application/pdf" width="100%" height="100%">
-            {/* <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf"> to the PDF!</a></p> */}
+            <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf"> to the PDF!</a></p>
             <p> my Resume </p>
-        </object>
+        </object> */}
+        <div style={{ width: '100%' }}>
+        <Document file= 'cato_resume_aug2023.pdf'>
+          <Page pageNumber={1} width={window.innerWidth} />
+        </Document>
+        </div>
     </div>
     );
 };

@@ -15,6 +15,15 @@
     font-size: 3vw;
 }
 
+.item{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'omo_font';
+    font-size: 3vw;
+    text-decoration: none;
+    text-align: center;
+}
+
 .wrapper_center{
     margin-left: auto;
     margin-right: auto;

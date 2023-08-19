@@ -23,8 +23,10 @@ const Notes = () => {
                 className = 'image'
             />
             </div>
-            <a className = "item" href={"/portfolio/catowen_calculus3_notes.pdf"} target="_blank"> MA-UY 2114 Calculus 3 Written Notes </a>
-            <a className = "item" href={"/portfolio/catowen_discrete_notes.pdf"} target="_blank"> MA-UY 2314 Discrete Math Written Notes </a>
+            <ul>
+            <li className="listing"><a className = "item" href={"/portfolio/catowen_calculus3_notes.pdf"} target="_blank"> MA-UY 2114 Calculus 3 Written Notes    *Click to Download* </a></li>
+            <li className="listing"><a className = "item" href={"/portfolio/catowen_discrete_notes.pdf"} target="_blank"> MA-UY 2314 Discrete Math Written Notes </a></li>
+            </ul>
             <div className="wrapper_center">
             <a className="section_header"> Usable </a>
             <img src={usable}
@@ -32,9 +34,11 @@ const Notes = () => {
                 className = 'image'
             />
             </div>
-            <a className = "item" href={"/portfolio/catowen_chemistry_notes.pdf"} target="_blank"> CM-UY 1003 Chemistry Written Notes </a>
-            <a className = "item" href={"/portfolio/catowen_oop_notes.pdf"} target="_blank"> CS-UY 2124 Object Oriented Programming Written Notes </a>
-            <a className = "item" href={"/portfolio/catowen_circuits_notes.pdf"} target="_blank"> ECE-UY 2004 Circuits Written Notes </a>
+            <ul>
+            <li className="listing"><a className = "item" href={"/portfolio/catowen_chemistry_notes.pdf"} target="_blank"> CM-UY 1003 Chemistry Written Notes </a></li>
+            <li className="listing"><a className = "item" href={"/portfolio/catowen_oop_notes.pdf"} target="_blank"> CS-UY 2124 Object Oriented Programming Written Notes </a></li>
+            <li className="listing"><a className = "item" href={"/portfolio/catowen_circuits_notes.pdf"} target="_blank"> ECE-UY 2004 Circuits Written Notes </a></li>
+            </ul>
             <div className="wrapper_center">
             <a className="section_header"> Pretty Bad </a>
             <img src={bad}
@@ -42,6 +46,9 @@ const Notes = () => {
                 className = 'image'
             />
             </div>
+            <ul>
+                <li className="listing"> <a>placeholder</a> </li>
+            </ul>
         </div>
     );
 };

@@ -41,10 +41,15 @@ const Homepage = () => {
           />
         </div>
         <div style={{ clear: 'both' }}></div>
+        <hr></hr>
+        <p className='thanks'> !!!! !!!! CONTENT BELOW THIS POINT IS WORK IN PROGRESS !!!! !!!! !!!! </p>
+        <hr></hr>
         <p className='body2'> I made this website because I wanted a place to include some of my interests that dont fit
         onto resumes very well. On this website, you will find my resume, past projects I've done, and write-ups about
         board games, video games, workshop projects (with 3D printers, lasercutters, etc) and other miscellaneous things
         I find interesting. </p>
+        <p className='body2'> The website is currently a little sparse, but I'll try to update the blog part weekly, and
+        update the projects and notes whenever I finish a project/course. </p>
         <p className='thanks'> Thanks for visiting my website, I hope you enjoy your stay. </p>
       </div>
     );

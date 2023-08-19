@@ -16,7 +16,7 @@
 }
 
 .item{
-    padding-left: 5vw;
+    padding-left: 3vw;
     font-family: 'omo_font';
     font-size: 3vw;
     text-decoration: none;
@@ -41,4 +41,15 @@
     display: inline;
     width: 5vw;
     height: auto;
+}
+
+.listing{
+    margin: 0;
+	padding: 1vw 0 1vw 2vw;
+	list-style: none;
+	background-image: url("../assets/bullet_point.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 2vw;
+    /* list-style-image: url(../assets/bullet_point.jpg); */
 }

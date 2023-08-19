@@ -24,13 +24,18 @@ const Notes = () => {
             />
             </div>
             <a className = "item" href={"/portfolio/catowen_calculus3_notes.pdf"} target="_blank"> MA-UY 2114 Calculus 3 Written Notes </a>
+            <a className = "item" href={"/portfolio/catowen_discrete_notes.pdf"} target="_blank"> MA-UY 2314 Discrete Math Written Notes </a>
             <div className="wrapper_center">
             <a className="section_header"> Usable </a>
             <img src={usable}
                 alt= "usable"
                 className = 'image'
             />
-            </div><div className="wrapper_center">
+            </div>
+            <a className = "item" href={"/portfolio/catowen_chemistry_notes.pdf"} target="_blank"> CM-UY 1003 Chemistry Written Notes </a>
+            <a className = "item" href={"/portfolio/catowen_oop_notes.pdf"} target="_blank"> CS-UY 2124 Object Oriented Programming Written Notes </a>
+            <a className = "item" href={"/portfolio/catowen_circuits_notes.pdf"} target="_blank"> ECE-UY 2004 Circuits Written Notes </a>
+            <div className="wrapper_center">
             <a className="section_header"> Pretty Bad </a>
             <img src={bad}
                 alt= "usable"
